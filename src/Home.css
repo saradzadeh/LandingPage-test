@@ -2,6 +2,8 @@
 body {
     background: #0E2544;
     color: white;
+    margin: 20px;
+
 }
 
 /*************************************************************************
@@ -22,8 +24,9 @@ The box
 .nav-bar-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-   
+    position: relative;
+    margin-left: 60px;
+    margin-right: 60px ;
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -32,4 +35,77 @@ The box
     text-align: center;
     letter-spacing: 8px;
     color: #FFFFFF;
+
+
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    
+}
+
+p {
+    color: white;
+}
+
+/*************************************************************************
+Carousel
+*************************************************************************/
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 700px;
+    height: 450px;
+    border-bottom: 10px;
+    border-radius: 20px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.04);
+}
+
+/*************************************************************************
+Footer
+*************************************************************************/
+
+.line {
+    width: 100%;
+    height: 0px;
+
+    
+
+    border: .5px solid #FFFFFF;
+    transform: rotate(180deg);
 }
