@@ -26,7 +26,7 @@ I've made a react app running 'npx create-react-app Revium-test'
 *  I used functions to define the current image, active image, and mapping through the images using the array index.
 *  I defined functions to make the left and right arrows workable repeatedly.
 *  **6-** I've used media queries to make responsive pages on web screens, tablets, and mobile.
-### Step4: Editing, checking the syntax consistancy & ReadMe file ()
+### Step4: Editing, checking the syntax consistancy & ReadMe file (3)
 * I checked the indentations.
 * I checked the syntax consistency.
 * I checked the comments to be concise and descriptive.
