@@ -1,6 +1,7 @@
 # The Front-end Developer Assessment
 A Landing page designed and implemented with the purpose of an online shop name NEW STYLE
-![image](homePage.png)
+![image](public/homePage.png)
+![image](public/product1.png)
 ## The Goal
 * Having a Sticky navbar with three links
 * A carousel with images
