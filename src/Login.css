@@ -90,3 +90,14 @@ button:hover {
     background-color: rgb(153, 114, 16);
     transition: 500ms;
 }
+
+/**********************************************************
+for phone screens
+*********************************************************/
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+    button {
+        font-size: 10px;
+    }
+}
