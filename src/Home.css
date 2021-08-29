@@ -5,6 +5,22 @@ body {
     margin: 20px;
 
 }
+/*************************************************************************
+logo
+*************************************************************************/
+
+.nav-bar-logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 14px;
+    color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.205);
+
+    border-radius: 30px;
+}
 
 /*************************************************************************
 The box
@@ -21,6 +37,8 @@ The box
     box-sizing: border-box;
     border-radius: 30px;
 }
+
+/******linkes*****/
 
 .nav-bar-links {
     display: grid;
@@ -49,8 +67,6 @@ p {
     text-decoration: none;
 }
 
-/******linkes*****/
-
 .about :hover{
     background-color: rgba(255, 208, 0, 0.300); 
     transition: 700ms;
@@ -68,21 +84,6 @@ p {
      transition: 700ms;
      width: 100%;
   }
-
-/******logo*****/
-
-.nav-bar-logo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 10px;
-    text-align: center;
-    letter-spacing: 14px;
-    color: goldenrod;
-    background-color: rgba(255, 255, 255, 0.205);
-
-    border-radius: 30px;
-}
 
 /*************************************************************************
 Carousel
@@ -138,18 +139,6 @@ Carousel
 Text
 *************************************************************************/
 
-.text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 25px;
-    letter-spacing: 2px;
-    color: #FFFFFF;
-    text-align: justify;
-
-    margin: 20px;
-}
-
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -161,6 +150,18 @@ h1 {
     margin: 40px;
     margin-left: 20px;
 
+}
+
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: justify;
+
+    margin: 20px;
 }
 
 /*************************************************************************
