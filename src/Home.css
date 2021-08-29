@@ -25,9 +25,11 @@ The box
 .nav-bar-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-    margin-left: 60px;
-    margin-right: 60px ;
+    position: fixed;
+    margin-left: 17.5%;
+    margin-right: 60px;
+    z-index: 10;
+    background-color: #0e254491;
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -37,12 +39,35 @@ The box
     letter-spacing: 8px;
     
     border: 1px solid #ffffffb4;
-    border-radius: 10px;    
+    border-radius: 10px;   
+    padding-left: 14%; 
+    padding-right: 14%;
 }
 
 p {
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
+
+/******linkes*****/
+
+.about :hover{
+    background-color: rgba(255, 208, 0, 0.300); 
+    transition: 700ms;
+    width: 100%;
+ }
+ 
+ .login :hover{
+     background-color: rgba(255, 208, 0, 0.300); 
+     transition: 700ms;
+     width: 100%;
+  }
+ 
+  .product :hover{
+     background-color: rgba(255, 208, 0, 0.300); 
+     transition: 700ms;
+     width: 100%;
+  }
 
 /******logo*****/
 
@@ -70,7 +95,7 @@ Carousel
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 
@@ -109,23 +134,6 @@ Carousel
     transform: scale(1.04);
 }
 
-/******linkes*****/
-
-.about :hover{
-   background-color: rgba(255, 208, 0, 0.300); 
-   transition: 700ms;
-}
-
-.login :hover{
-    background-color: rgba(255, 208, 0, 0.300); 
-    transition: 700ms;
- }
-
- .product :hover{
-    background-color: rgba(255, 208, 0, 0.300); 
-    transition: 700ms;
- }
-
 /*************************************************************************
 Text
 *************************************************************************/
@@ -137,6 +145,7 @@ Text
     line-height: 25px;
     letter-spacing: 2px;
     color: #FFFFFF;
+    text-align: justify;
 
     margin: 20px;
 }
@@ -182,7 +191,6 @@ footer {
     
 }
 
-
 /**********************************************************
 for phone screens
 *********************************************************/
@@ -199,6 +207,10 @@ and (max-device-width: 568px) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         position: relative;
+        margin-left: 60px;
+        margin-right: 60px;
+        z-index: 10;
+        background-color: #0e254491;
         
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
@@ -208,10 +220,22 @@ and (max-device-width: 568px) {
         letter-spacing: 2px;
         
         border: 1px solid #ffffffb4;
-        border-radius: 10px;    
+        border-radius: 10px;   
+        padding-left: 0; 
+        padding-right: 0;
     }
 
 /******carousel images*****/
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
     .image {
         width: 300px;
