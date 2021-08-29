@@ -1,0 +1,92 @@
+/*************************************************************************
+login page logo
+*************************************************************************/
+
+.nav-bar-logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 14px;
+    color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.205);
+
+    border-radius: 30px;
+}
+
+/*************************************************************************
+login page homelink
+*************************************************************************/
+
+.home-in-login :hover {
+    background-color: rgba(255, 208, 0, 0.300); 
+    transition: 700ms;
+    padding: 20px;
+    width: 45px;
+}
+
+/*************************************************************************
+login form
+*************************************************************************/
+
+.login-form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.email{
+    background-color: #0E2544;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: goldenrod;
+}
+
+.pass{
+    background-color: #0E2544;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #ffffff;
+}
+
+button {
+    background-color: #ffffffbd;
+    border: 1px solid #ffffff;
+    color: #0E2544;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2px;
+
+    margin: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+button:hover {
+    background-color: rgb(153, 114, 16);
+    transition: 500ms;
+}

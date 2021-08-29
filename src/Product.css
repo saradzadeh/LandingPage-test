@@ -1,0 +1,58 @@
+/*************************************************************************
+login page logo
+*************************************************************************/
+
+.nav-bar-logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 14px;
+    color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.205);
+
+    border-radius: 30px;
+}
+
+/*************************************************************************
+login page logo
+*************************************************************************/
+
+.home-in-product:hover {
+    background-color: rgba(255, 208, 0, 0.300); 
+    transition: 700ms;
+    padding: 20px;
+    width: 45px;
+}
+
+/*************************************************************************
+header
+*************************************************************************/
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: goldenrod;
+    text-align: center;
+
+    margin: 40px;
+    margin-left: 20px;
+
+}
+
+/*************************************************************************
+product session
+*************************************************************************/
+
+.product-items{
+    text-align: center;
+}
+
+.product-image{
+    width: 60%;
+    border-radius: 10px;
+}
