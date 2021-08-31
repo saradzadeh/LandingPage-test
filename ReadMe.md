@@ -35,4 +35,5 @@ I've made a react app running 'npx create-react-app Revium-test'
 ## The instruction to run this web application on a localhost.
 * Clone this repository Running 'git clone https://github.com/saradzadeh/Revium-test.git' on the terminal
 * Run 'npm install' on the terminal
+* Run 'npm react-icons'
 * Run 'npm start'
