@@ -1,6 +1,7 @@
 # The Front-end Developer Assessment
 A Landing page designed and implemented with the purpose of an online shop name NEW STYLE
 ![image](public/image.png)
+You can see my design here: https://www.behance.net/gallery/126364049/UI-DesignFront-end-Landing-PAge
 ## The Goal
 * Having a Sticky navbar with three links
 * A carousel with images
